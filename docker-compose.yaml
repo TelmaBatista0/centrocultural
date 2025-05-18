@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 123
-      MYSQL_DATABASE: projeto_aulas
+      MYSQL_DATABASE: centro-cultural
     ports:
       - "3306:3305"
     volumes:
